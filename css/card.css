@@ -1,0 +1,38 @@
+#cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-container{
+    background-color: #c3d6d8;
+    padding: 15px 0px 25px 0px;
+    width: 295px;
+    color: white;
+    margin : 20px
+    
+    
+}
+
+.card-title-box{
+    width: 180px;
+    height: 65px;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+.card-content{
+    margin : 40px 20px
+}
+
+.read-more{
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    #cards-container{
+        flex-wrap: nowrap;
+    }
+    .card-container{
+        flex: 1;
+    }
+}

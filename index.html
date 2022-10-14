@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
 
+    <link rel="stylesheet" href="css/card.css">
+
+
 </head>
 <body>
   <section class="header">
@@ -42,6 +45,15 @@
   </div>
   </section>
 
+  <section id="cards-container">
+
+    <!-- <div class="card-container">
+      <div class="card-title-box"></div>
+      <div class="card-content">Eea elit quis exercitation culpaea elit quis exercitation culpaea elit quis exercitation culpa</div>
+      <div class="read-more">Read More</div>
+    </div> -->
+
+  </section>
 
   <footer class="footer">
     <div  class="footer-container">
@@ -121,7 +133,35 @@
     x.style.display = "none";
   }
 } 
-  
+  function card(text,backgroundColor){
+    return (
+    `
+    <div class="card-container" style="background-color : ${backgroundColor}">
+      <div class="card-title-box"></div>
+      <div class="card-content">${text}</div>
+      <div class="read-more">Read More</div>
+    </div>
+    `
+    )
+  }
+
+  function addCards(){
+    const cardContainer =document.getElementById("cards-container")
+    const cards = [{text : "Eea elit quis exercitation culpaea elit quis exercitation culpaea elit quis exercitation culpa",backgroundColor : "#077F8D"},
+  {text: "Company: ea elit quis exercitation culpa ea elit quis exercitation culpa",backgroundColor:"#A74170"},
+{text:"Eea elit quis exercitation culpaea elit quis exercitation culpaea quis exercitati on culpa", backgroundColor : "#077F8D"},
+{text :"Eea elit quis exercitation culpaea elit quis exercitation culpaea elit quis exercitation culpa",backgroundColor : "#333A42"}
+]
+for(let i=0;i<cards.length;i++){
+  const {text,backgroundColor} = cards[i]
+    const cardHtml = card(text,backgroundColor)
+    cardContainer.innerHTML+=cardHtml
+}
+  }
+
+  addCards()
+
+
 </script>
 </html>
 
