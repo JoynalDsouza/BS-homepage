@@ -52,12 +52,33 @@ body {
 .nav-link{
     margin-bottom: 5px;
     cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
 }
 
 .request-demo{
     border: 1px solid #B0BF40;
     padding:10px;
 
+}
+
+.main-heading{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 63px;
+}
+
+.hero-para{
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.hero-button{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .hero-img{
@@ -119,7 +140,7 @@ body {
     .hero-button{
         
         position: absolute;
-        bottom: -95px;
+        bottom: -70px;
         left: 60px
 
 

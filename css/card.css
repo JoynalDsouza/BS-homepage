@@ -21,11 +21,17 @@
 }
 
 .card-content{
-    margin : 40px 20px
+    margin : 40px 20px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
 }
 
 .read-more{
     margin-left: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
 }
 
 @media screen and (min-width: 1024px) {

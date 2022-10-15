@@ -16,10 +16,15 @@
 
 .testimonial-heading{
     text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
     
 }
 .testimonial-text{
     padding: 0 20px ;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .arrow-container{
