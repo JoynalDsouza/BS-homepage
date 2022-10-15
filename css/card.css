@@ -34,5 +34,6 @@
     }
     .card-container{
         flex: 1;
+        max-width: 295px;
     }
 }

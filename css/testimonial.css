@@ -1,0 +1,22 @@
+.testimonial-container{
+    background-color: rgba(79, 70, 229,0.1);
+    border-radius: 16px;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-top: 20px ;
+    padding-right: 60px;
+    max-width: 1024px;
+    margin-bottom: 40px;
+
+}
+
+.testimonial-img-container{
+    position: relative;
+}
+.intersect{
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+}
