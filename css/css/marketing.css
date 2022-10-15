@@ -1,0 +1,88 @@
+.marketing-section{
+    background-color: #F4FBFB;
+}
+
+.tab-wrapper{
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.tab-heading{
+    font-size: 12px;
+    margin : 30px 0px;
+
+}
+.tabs-container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+
+}
+
+
+
+.current-tab{
+    border-bottom: 2px solid black;
+}
+
+.marketing-text-content{
+        
+        padding: 0px 10px;
+    }
+
+.marketing-media-content{
+    display: flex;
+    position : relative
+}
+
+.media-text-box{
+    background-color: #FEFEFE;
+    position: absolute;
+    align-self: flex-end;
+    left: 120px;
+    top: 180px;
+    padding: 10px 20px 10px 10px;
+
+}
+
+.text-box-buttons{
+    display: flex;
+
+}
+.text-box-button{
+    font-size: 12px;
+}
+.text-box-button + .text-box-button{
+    margin-left: 5px;
+}
+
+.bank-img{
+    flex: 1;
+    position: relative;
+    align-self: flex-end;
+    left: 20px;
+    bottom: 25px;
+}
+
+.digital-img{
+    flex : 1
+}
+
+@media screen and (min-width: 1024px) {
+    .marketing-wrapper{
+        display: flex;
+        padding: 10px;
+        max-width: 1000px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .marketing-text-content{
+        flex: 1;
+        padding: 0px 30px;
+    }
+
+    .marketing-media-content{
+        flex:1
+    }
+}
