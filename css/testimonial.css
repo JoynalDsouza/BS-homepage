@@ -3,13 +3,40 @@
     border-radius: 16px;
     width: 75%;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    padding-top: 20px ;
-    padding-right: 60px;
+    
+    
+    
+   
     max-width: 1024px;
     margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
 
+}
+
+.testimonial-heading{
+    text-align: center;
+    
+}
+.testimonial-text{
+    padding: 0 20px ;
+}
+
+.arrow-container{
+    
+    width: 75%;
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left : -20px;
+
+
+    cursor: pointer;
+}
+
+.arrow + .arrow{
+    margin-left: 25px;
 }
 
 .testimonial-img-container{
@@ -19,4 +46,17 @@
     position: absolute;
     z-index: -1;
     bottom: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .testimonial-container{
+        display: flex;
+        flex-direction: row-reverse;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-left: 0px;
+
+        
+    }
+    
 }
